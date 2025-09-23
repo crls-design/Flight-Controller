@@ -1,0 +1,10 @@
+History
+__Previews
+Project\ Logs*
+Project\ Outputs*
+debug.log
+Status\ Report.txt
+*.PcbDoc.htm
+*.SchDocPreview
+*.PcbDocPreview
+.~lock.*
