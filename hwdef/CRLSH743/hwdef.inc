@@ -33,8 +33,8 @@ BARO ICP201XX I2C:0:0x63
 
 # no built-in compass, but probe the i2c bus for all possible
 # external compass types
-define ALLOW_ARM_NO_COMPASS
-define HAL_PROBE_EXTERNAL_I2C_COMPASSES
+define ARMING_SKIPCHK
+define AP_COMPASS_PROBING_ENABLED 1
 define HAL_I2C_INTERNAL_MASK 1
 define HAL_COMPASS_AUTO_ROT_DEFAULT 2
 
